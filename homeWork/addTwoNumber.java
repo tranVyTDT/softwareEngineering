@@ -1,19 +1,33 @@
-public class MyBigNumber
-{
-	
-	public String sum(String s1 , String s2)
-	{
-		int balance = 0;
-		int maxLenght = s1.length > s2.length ? s1.length : s2.length;
-		String result;
-		
-		for(int i = 0 ; i < maxLenght : i++)
-		{
-			int sumTwoChar = (s1.charAr(s1.length - i-1) - 30) - (s2.charAr(s2.length - i-1) - 30) + balance;
-			balance = sumTwoChar % 10;
-			result += ""+sumTwoChar/10;
-		}
-		
-		return result;
-	}
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author HP
+ */
+public class addtwonumber {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("enter the firts number : ");
+        String number1 = sc.nextLine();
+        System.out.print("enter the second number : ");
+        String number2 = sc.nextLine();
+        
+        MyBigNumber mybignumber = new MyBigNumber();
+        
+        System.out.print(mybignumber.sum(number1, number2));
+    }
+    
 }
