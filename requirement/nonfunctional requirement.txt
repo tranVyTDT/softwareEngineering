@@ -1,0 +1,29 @@
+Nonfunctional requirement
+1 Accessibility
+This subsection specifies the following requirements associated with the degree to which the system must be accessible to people with disabilities:
+- nearsighted people less than 2 degrees can see clearly any objects in this applications. 
+2 Auditability
+This subsection specifies the following requirements associated with the degree to which the system must support independent auditing of its events CRUD at database:
+- the system shall maintain a record for each order : time , who made , what was in the order.
+3 Correctness
+This subsection specifies the following requirements concerning the degree of correctness of the system’s outputs:
+- the currency shall be show “đ” or “$” depending on setting of user.
+- the timezone is +7 .
+- the time shall be show with hours , minutes , seconds.
+4 interoperability
+This subsection specifies the following requirements associated with the ease with the ease with which the system can be use (operating system)
+- Android 5.0.0 or newer.
+- IOS 6 or newer.
+5 Performance
+This subsection specifies the following requirements associated with the speed with which the system shall function. 
+5.1 Capacity
+This subsection specifies the following requirements concerning the minimum number of objects that the system can support
+- The system shall support a minimum of 10 employees.
+- The system shall support for saving a minimum of 10000 orders.
+- The system shall support for creating a minimum of 200 tables.
+- The system shall support for creating a minimum of 1000 different dishes.
+5.2 Response time
+- This subsection specifies the following requirements concerning the maximum time that is permitted for the system to respond to requests:
+- connection of employees with the store shall occur with 10 seconds.
+- any other system responses shall occur with 1 second.
+ 
